@@ -1,0 +1,24 @@
+# Ignore vendor directory (Composer dependencies)
+/vendor
+
+# Ignore all files under mydir
+Models/*
+
+# Ignore PHPStorm IDE files
+/.idea/
+*.iml
+.idea_modules/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Composer's Composer.lock file
+composer.lock
+
+# Ignore any user-specific configuration files
+*.conf
+
+# Ignore PHPCS and PHPStan cache directories
+/.phpcs.cache/
+/.phpstan/
